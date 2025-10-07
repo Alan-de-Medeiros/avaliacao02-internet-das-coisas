@@ -100,8 +100,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 230,
-        "y": 160,
+        "x": 130,
+        "y": 180,
         "wires": [
             [
                 "255c39fe0e1dd08e"
@@ -120,8 +120,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 200,
+        "x": 660,
+        "y": 240,
         "wires": [
             [
                 "057d5a5b9f0a3025"
@@ -139,8 +139,8 @@
         "name": "",
         "field": "payload._id",
         "fieldType": "msg",
-        "x": 430,
-        "y": 160,
+        "x": 390,
+        "y": 280,
         "wires": [
             [
                 "e75dfc25cc2c66dc"
@@ -157,8 +157,8 @@
         "split": false,
         "rowsPerMsg": 1,
         "outputs": 1,
-        "x": 870,
-        "y": 380,
+        "x": 810,
+        "y": 500,
         "wires": [
             []
         ]
@@ -175,8 +175,8 @@
         "maxTimeMS": "0",
         "handleDocId": false,
         "name": "",
-        "x": 890,
-        "y": 220,
+        "x": 910,
+        "y": 300,
         "wires": [
             []
         ]
@@ -186,14 +186,14 @@
         "type": "function",
         "z": "f7e3781c68842f86",
         "name": "function 2",
-        "func": "const device_id = (msg.topic || '').split(\"/\")[1];\nif(!device_id) return null;\n\nmsg.collection = \"alert\";\nmsg.operation = \"insertOne\";\n\nconst objeto = {\n    _id: msg.payload._id,  \n    device_id: device_id,\n    data: {\n        temperature: msg.payload.data.temperature,\n        unit: msg.payload.data.unit\n    },        \n    created_at: new Date(),\n    update_at: new Date(),\n    raw: JSON.stringify(msg.payload)\n}\nconst status = msg.payload.data.temperature < 5 ? \"off\" : \"on\"\nconst obj = {\n    topic: `device/${device_id}/cmd/light`,\n    payload: {\n        device_id: device_id,\n        led: status\n    }\n}\nvar postgres = {};\nif (status == \"on\"){\n    postgres.query = `INSERT INTO alert (id, created_at, temperature,topic, unit, raw) VALUES ($1, $2, $3, $4, $5, $6)`;\n    postgres.params = [\n        msg.payload._id,  \n        new Date(),\n        msg.payload.data.temperature,\n        msg.payload.data.unit,\n        msg.topic,\n        JSON.stringify(msg.payload)\n    ]\n} else {\n    postgres = null\n}\n\nmsg.payload = objeto\nreturn [msg, obj, postgres || null];",
+        "func": "const device_id = (msg.topic || '').split(\"/\")[1];\nif (!device_id) return null;\n\nmsg.collection = \"alerta\";\nmsg.operation = \"insertOne\";\n\nconst objeto = {\n    _id: msg.payload._id,\n    device_id: device_id,\n    data: {\n        temperature: msg.payload.data.temperature,\n        unit: msg.payload.data.unit\n    },\n    created_at: new Date(),\n    update_at: new Date(),\n    raw: JSON.stringify(msg.payload)\n}\nconst estatos = msg.payload.data.temperature < 5 ? \"off\" : \"on\"\nconst obj = {\n    topic: `device/${device_id}/cmd/light`,\n    payload: {\n        device_id: device_id,\n        led: estatos\n    }\n}\nvar banco = {};\nif (estatos == \"on\") {\n    banco.query = `INSERT INTO alerta (id, created_at, temperature,topic, unit, raw) VALUES ($1, $2, $3, $4, $5, $6)`;\n    banco.params = [\n        msg.payload._id,\n        new Date(),\n        msg.payload.data.temperature,\n        msg.payload.data.unit,\n        msg.topic,\n        JSON.stringify(msg.payload)\n    ]\n} else {\n    banco = null\n}\n\nmsg.payload = objeto\nreturn [msg, obj, banco || null];",
         "outputs": 3,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
+        "x": 580,
         "y": 380,
         "wires": [
             [
@@ -221,8 +221,8 @@
         "correl": "",
         "expiry": "",
         "broker": "9e3bcd1ba5e16855",
-        "x": 910,
-        "y": 300,
+        "x": 810,
+        "y": 460,
         "wires": []
     },
     {
@@ -238,8 +238,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 190,
-        "y": 380,
+        "x": 130,
+        "y": 460,
         "wires": [
             [
                 "b07ad6a1eb4377e3"
@@ -257,8 +257,8 @@
         "name": "",
         "field": "payload._id",
         "fieldType": "msg",
-        "x": 430,
-        "y": 400,
+        "x": 390,
+        "y": 380,
         "wires": [
             [
                 "cb22b035e5fc5195"
