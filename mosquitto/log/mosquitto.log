@@ -1125,3 +1125,767 @@ To fix this, use `chmod 0700 /mosquitto/config/passwd`.
 1759779098: Client nodered3f4d36b1fd8eaa4f disconnected.
 1759779098: New connection from 172.20.0.5:49618 on port 1883.
 1759779098: New client connected from 172.20.0.5:49618 as noderedb2ac2d829bc340ba (p2, c1, k60, u'aluno').
+1759788871: mosquitto version 2.0.22 starting
+1759788871: Config loaded from /mosquitto/config/mosquitto.conf.
+1759788871: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1759788871: Opening ipv4 listen socket on port 1883.
+1759788871: Opening websockets listen socket on port 9001.
+1759788871: mosquitto version 2.0.22 running
+1759788879: New connection from 172.18.0.5:33118 on port 1883.
+1759788879: New client connected from 172.18.0.5:33118 as nodered6e89bb98bb4bcf19 (p2, c1, k60, u'aluno').
+1759789714: New client connected from 172.18.0.1:49696 as sub-0187c2d5b41b7 (p2, c1, k60, u'aluno').
+1759789736: New client connected from 172.18.0.1:47006 as pub-a09f662990dc58 (p2, c1, k60, u'aluno').
+1759789743: New connection from 172.18.0.6:49448 on port 1883.
+1759789743: Client nodereda099c2af44867652 disconnected, not authorised.
+1759789758: New connection from 172.18.0.6:43222 on port 1883.
+1759789758: Client nodereda099c2af44867652 disconnected, not authorised.
+1759789773: New connection from 172.18.0.6:46546 on port 1883.
+1759789773: Client nodereda099c2af44867652 disconnected, not authorised.
+1759789788: New connection from 172.18.0.6:51614 on port 1883.
+1759789788: Client nodereda099c2af44867652 disconnected, not authorised.
+1759789803: New connection from 172.18.0.6:35320 on port 1883.
+1759789803: Client nodereda099c2af44867652 disconnected, not authorised.
+1759789818: New connection from 172.18.0.6:44896 on port 1883.
+1759789818: Client nodereda099c2af44867652 disconnected, not authorised.
+1759789833: New connection from 172.18.0.6:41966 on port 1883.
+1759789833: Client nodereda099c2af44867652 disconnected, not authorised.
+1759789848: New connection from 172.18.0.6:50042 on port 1883.
+1759789848: Client nodereda099c2af44867652 disconnected, not authorised.
+1759789863: New connection from 172.18.0.6:50562 on port 1883.
+1759789863: Client nodereda099c2af44867652 disconnected, not authorised.
+1759789878: New connection from 172.18.0.6:44558 on port 1883.
+1759789878: Client nodereda099c2af44867652 disconnected, not authorised.
+1759789892: New connection from 172.18.0.6:45878 on port 1883.
+1759789892: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759789907: New connection from 172.18.0.6:47148 on port 1883.
+1759789907: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759789922: New connection from 172.18.0.6:58278 on port 1883.
+1759789922: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759789937: New connection from 172.18.0.6:49772 on port 1883.
+1759789937: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759789952: New connection from 172.18.0.6:37328 on port 1883.
+1759789952: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759789967: New connection from 172.18.0.6:60098 on port 1883.
+1759789967: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759789982: New connection from 172.18.0.6:52766 on port 1883.
+1759789982: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759789997: New connection from 172.18.0.6:54224 on port 1883.
+1759789997: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759790012: New connection from 172.18.0.6:53848 on port 1883.
+1759790012: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759790027: New connection from 172.18.0.6:36406 on port 1883.
+1759790027: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759790042: New connection from 172.18.0.6:40530 on port 1883.
+1759790042: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759790057: New connection from 172.18.0.6:35632 on port 1883.
+1759790057: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759790072: New connection from 172.18.0.6:38706 on port 1883.
+1759790072: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759790087: New connection from 172.18.0.6:37702 on port 1883.
+1759790087: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759790102: New connection from 172.18.0.6:51738 on port 1883.
+1759790102: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759790117: New connection from 172.18.0.6:35396 on port 1883.
+1759790117: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759790132: New connection from 172.18.0.6:37360 on port 1883.
+1759790132: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759790147: New connection from 172.18.0.6:60604 on port 1883.
+1759790147: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759790162: New connection from 172.18.0.6:38318 on port 1883.
+1759790162: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759790177: New connection from 172.18.0.6:54332 on port 1883.
+1759790177: Client nodered1890865c2c2e567d disconnected, not authorised.
+1759790190: New connection from 172.18.0.6:59092 on port 1883.
+1759790190: Client nodered148923d7684bba1f disconnected, not authorised.
+1759790205: New connection from 172.18.0.6:56378 on port 1883.
+1759790205: Client nodered148923d7684bba1f disconnected, not authorised.
+1759790219: New connection from 172.18.0.6:59572 on port 1883.
+1759790219: Client nodered429e3a57a9547178 disconnected, not authorised.
+1759790229: New connection from 172.18.0.6:36302 on port 1883.
+1759790229: Client noderedc194fb0e694f861d disconnected, not authorised.
+1759790244: New connection from 172.18.0.6:35010 on port 1883.
+1759790244: Client noderedc194fb0e694f861d disconnected, not authorised.
+1759790259: New connection from 172.18.0.6:52986 on port 1883.
+1759790259: Client noderedc194fb0e694f861d disconnected, not authorised.
+1759790274: New connection from 172.18.0.6:52090 on port 1883.
+1759790274: Client noderedc194fb0e694f861d disconnected, not authorised.
+1759790289: New connection from 172.18.0.6:40102 on port 1883.
+1759790289: Client noderedc194fb0e694f861d disconnected, not authorised.
+1759790304: New connection from 172.18.0.6:37578 on port 1883.
+1759790304: Client noderedc194fb0e694f861d disconnected, not authorised.
+1759790319: New connection from 172.18.0.6:35832 on port 1883.
+1759790319: Client noderedc194fb0e694f861d disconnected, not authorised.
+1759790334: New connection from 172.18.0.6:53152 on port 1883.
+1759790334: Client noderedc194fb0e694f861d disconnected, not authorised.
+1759790349: New connection from 172.18.0.6:48896 on port 1883.
+1759790349: Client noderedc194fb0e694f861d disconnected, not authorised.
+1759790364: New connection from 172.18.0.6:57058 on port 1883.
+1759790364: Client noderedc194fb0e694f861d disconnected, not authorised.
+1759790379: New connection from 172.18.0.6:44170 on port 1883.
+1759790379: Client noderedc194fb0e694f861d disconnected, not authorised.
+1759790394: New connection from 172.18.0.6:57436 on port 1883.
+1759790394: Client noderedc194fb0e694f861d disconnected, not authorised.
+1759790409: New connection from 172.18.0.6:47034 on port 1883.
+1759790409: Client noderedc194fb0e694f861d disconnected, not authorised.
+1759790414: New connection from 172.18.0.6:47036 on port 1883.
+1759790414: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790429: New connection from 172.18.0.6:33250 on port 1883.
+1759790429: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790444: New connection from 172.18.0.6:33914 on port 1883.
+1759790444: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790459: New connection from 172.18.0.6:39940 on port 1883.
+1759790459: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790474: New connection from 172.18.0.6:36814 on port 1883.
+1759790474: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790489: New connection from 172.18.0.6:42708 on port 1883.
+1759790489: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790504: New connection from 172.18.0.6:35748 on port 1883.
+1759790504: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790519: New connection from 172.18.0.6:45640 on port 1883.
+1759790519: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790534: New connection from 172.18.0.6:58394 on port 1883.
+1759790534: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790549: New connection from 172.18.0.6:39744 on port 1883.
+1759790549: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790564: New connection from 172.18.0.6:37516 on port 1883.
+1759790564: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790579: New connection from 172.18.0.6:52398 on port 1883.
+1759790579: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790594: New connection from 172.18.0.6:35850 on port 1883.
+1759790594: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790609: New connection from 172.18.0.6:49120 on port 1883.
+1759790609: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790624: New connection from 172.18.0.6:33850 on port 1883.
+1759790624: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790639: New connection from 172.18.0.6:50288 on port 1883.
+1759790639: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790654: New connection from 172.18.0.6:57244 on port 1883.
+1759790654: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790669: New connection from 172.18.0.6:51460 on port 1883.
+1759790669: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790671: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1759790684: New connection from 172.18.0.6:47610 on port 1883.
+1759790684: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790699: New connection from 172.18.0.6:39086 on port 1883.
+1759790699: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790714: New connection from 172.18.0.6:57486 on port 1883.
+1759790714: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790729: New connection from 172.18.0.6:48032 on port 1883.
+1759790729: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790744: New connection from 172.18.0.6:41578 on port 1883.
+1759790744: Client nodered4fe4c753938b6849 disconnected, not authorised.
+1759790750: New connection from 172.18.0.6:55948 on port 1883.
+1759790750: Client nodered8ac966ddbf91dfb8 disconnected, not authorised.
+1759790765: New connection from 172.18.0.6:43310 on port 1883.
+1759790765: Client nodered8ac966ddbf91dfb8 disconnected, not authorised.
+1759790780: New connection from 172.18.0.6:52644 on port 1883.
+1759790780: Client nodered8ac966ddbf91dfb8 disconnected, not authorised.
+1759790792: New connection from 172.18.0.6:43736 on port 1883.
+1759790792: Client nodereddcf366c45a321739 disconnected, not authorised.
+1759790805: New connection from 172.18.0.6:42052 on port 1883.
+1759790805: Client nodered0d7036e960fa9eab disconnected, not authorised.
+1759790814: New connection from 172.18.0.6:42056 on port 1883.
+1759790814: Client noderede1e629cc889a19db disconnected, not authorised.
+1759790829: New connection from 172.18.0.6:35696 on port 1883.
+1759790829: Client noderede1e629cc889a19db disconnected, not authorised.
+1759790844: New connection from 172.18.0.6:43504 on port 1883.
+1759790844: Client noderede1e629cc889a19db disconnected, not authorised.
+1759790859: New connection from 172.18.0.6:60974 on port 1883.
+1759790859: Client noderede1e629cc889a19db disconnected, not authorised.
+1759790874: New connection from 172.18.0.6:57752 on port 1883.
+1759790874: Client noderede1e629cc889a19db disconnected, not authorised.
+1759790889: New connection from 172.18.0.6:36334 on port 1883.
+1759790889: Client noderede1e629cc889a19db disconnected, not authorised.
+1759790904: New connection from 172.18.0.6:51502 on port 1883.
+1759790904: Client noderede1e629cc889a19db disconnected, not authorised.
+1759790919: New connection from 172.18.0.6:35788 on port 1883.
+1759790919: Client noderede1e629cc889a19db disconnected, not authorised.
+1759790934: New connection from 172.18.0.6:49084 on port 1883.
+1759790934: Client noderede1e629cc889a19db disconnected, not authorised.
+1759790938: New connection from 172.18.0.6:36296 on port 1883.
+1759790938: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759790953: New connection from 172.18.0.6:37408 on port 1883.
+1759790953: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759790968: New connection from 172.18.0.6:40888 on port 1883.
+1759790968: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759790983: New connection from 172.18.0.6:51334 on port 1883.
+1759790983: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759790998: New connection from 172.18.0.6:49956 on port 1883.
+1759790998: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759791013: New connection from 172.18.0.6:36804 on port 1883.
+1759791013: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759791028: New connection from 172.18.0.6:47952 on port 1883.
+1759791028: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759791043: New connection from 172.18.0.6:47976 on port 1883.
+1759791043: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759791058: New connection from 172.18.0.6:42550 on port 1883.
+1759791058: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759791073: New connection from 172.18.0.6:50660 on port 1883.
+1759791073: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759791088: New connection from 172.18.0.6:51030 on port 1883.
+1759791088: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759791103: New connection from 172.18.0.6:55736 on port 1883.
+1759791103: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759791118: New connection from 172.18.0.6:53072 on port 1883.
+1759791118: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759791133: New connection from 172.18.0.6:47700 on port 1883.
+1759791133: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759791148: New connection from 172.18.0.6:57066 on port 1883.
+1759791148: Client nodered01bc68e015ec012e disconnected, not authorised.
+1759791159: New connection from 172.18.0.6:52458 on port 1883.
+1759791159: Client noderedf4b68c7a28c93dc0 disconnected, not authorised.
+1759791174: New connection from 172.18.0.6:58184 on port 1883.
+1759791174: Client noderedf4b68c7a28c93dc0 disconnected, not authorised.
+1759791189: New connection from 172.18.0.6:53986 on port 1883.
+1759791189: Client noderedf4b68c7a28c93dc0 disconnected, not authorised.
+1759791201: New connection from 172.18.0.6:44984 on port 1883.
+1759791201: Client nodered8c4c794ad72b7ffd disconnected, not authorised.
+1759791213: New connection from 172.18.0.6:48754 on port 1883.
+1759791213: Client nodered544e3729f246e32a disconnected, not authorised.
+1759791220: New connection from 172.18.0.6:45134 on port 1883.
+1759791220: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791235: New connection from 172.18.0.6:37036 on port 1883.
+1759791235: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791250: New connection from 172.18.0.6:56012 on port 1883.
+1759791250: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791265: New connection from 172.18.0.6:47882 on port 1883.
+1759791265: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791280: New connection from 172.18.0.6:49280 on port 1883.
+1759791280: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791295: New connection from 172.18.0.6:54992 on port 1883.
+1759791295: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791310: New connection from 172.18.0.6:43046 on port 1883.
+1759791310: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791325: New connection from 172.18.0.6:50916 on port 1883.
+1759791325: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791340: New connection from 172.18.0.6:60212 on port 1883.
+1759791340: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791355: New connection from 172.18.0.6:47554 on port 1883.
+1759791355: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791370: New connection from 172.18.0.6:37214 on port 1883.
+1759791370: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791385: New connection from 172.18.0.6:56342 on port 1883.
+1759791385: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791400: New connection from 172.18.0.6:44962 on port 1883.
+1759791400: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791415: New connection from 172.18.0.6:59792 on port 1883.
+1759791415: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791430: New connection from 172.18.0.6:44746 on port 1883.
+1759791430: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791445: New connection from 172.18.0.6:56884 on port 1883.
+1759791445: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791460: New connection from 172.18.0.6:34310 on port 1883.
+1759791460: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791475: New connection from 172.18.0.6:41718 on port 1883.
+1759791475: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791490: New connection from 172.18.0.6:50114 on port 1883.
+1759791490: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791505: New connection from 172.18.0.6:36560 on port 1883.
+1759791505: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791520: New connection from 172.18.0.6:53190 on port 1883.
+1759791520: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791535: New connection from 172.18.0.6:43744 on port 1883.
+1759791535: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791550: New connection from 172.18.0.6:45108 on port 1883.
+1759791550: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791565: New connection from 172.18.0.6:45440 on port 1883.
+1759791565: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791580: New connection from 172.18.0.6:59392 on port 1883.
+1759791580: Client noderedc452c1eccc570bf7 disconnected, not authorised.
+1759791592: New connection from 172.18.0.6:54040 on port 1883.
+1759791592: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791607: New connection from 172.18.0.6:33674 on port 1883.
+1759791607: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791622: New connection from 172.18.0.6:46752 on port 1883.
+1759791622: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791637: New connection from 172.18.0.6:44186 on port 1883.
+1759791637: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791652: New connection from 172.18.0.6:54182 on port 1883.
+1759791652: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791667: New connection from 172.18.0.6:48364 on port 1883.
+1759791667: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791682: New connection from 172.18.0.6:40330 on port 1883.
+1759791682: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791697: New connection from 172.18.0.6:45334 on port 1883.
+1759791697: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791712: New connection from 172.18.0.6:57066 on port 1883.
+1759791712: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791727: New connection from 172.18.0.6:43458 on port 1883.
+1759791727: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791742: New connection from 172.18.0.6:44818 on port 1883.
+1759791742: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791757: New connection from 172.18.0.6:38100 on port 1883.
+1759791757: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791772: New connection from 172.18.0.6:34464 on port 1883.
+1759791772: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791787: New connection from 172.18.0.6:58144 on port 1883.
+1759791787: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791802: New connection from 172.18.0.6:47282 on port 1883.
+1759791802: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791817: New connection from 172.18.0.6:39000 on port 1883.
+1759791817: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791832: New connection from 172.18.0.6:40354 on port 1883.
+1759791832: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791847: New connection from 172.18.0.6:47716 on port 1883.
+1759791847: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791862: New connection from 172.18.0.6:45522 on port 1883.
+1759791862: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791877: New connection from 172.18.0.6:47886 on port 1883.
+1759791877: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791892: New connection from 172.18.0.6:58168 on port 1883.
+1759791892: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791907: New connection from 172.18.0.6:39814 on port 1883.
+1759791907: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791922: New connection from 172.18.0.6:59856 on port 1883.
+1759791922: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791937: New connection from 172.18.0.6:41630 on port 1883.
+1759791937: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791952: New connection from 172.18.0.6:40196 on port 1883.
+1759791952: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791967: New connection from 172.18.0.6:56262 on port 1883.
+1759791967: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791982: New connection from 172.18.0.6:53846 on port 1883.
+1759791982: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759791997: New connection from 172.18.0.6:39474 on port 1883.
+1759791997: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759792012: New connection from 172.18.0.6:43206 on port 1883.
+1759792012: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759792027: New connection from 172.18.0.6:49072 on port 1883.
+1759792027: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759792042: New connection from 172.18.0.6:60470 on port 1883.
+1759792042: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759792057: New connection from 172.18.0.6:33210 on port 1883.
+1759792057: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759792072: New connection from 172.18.0.6:53760 on port 1883.
+1759792072: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759792087: New connection from 172.18.0.6:35358 on port 1883.
+1759792087: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759792102: New connection from 172.18.0.6:43426 on port 1883.
+1759792102: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759792117: New connection from 172.18.0.6:50616 on port 1883.
+1759792117: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759792132: New connection from 172.18.0.6:34094 on port 1883.
+1759792132: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759792147: New connection from 172.18.0.6:40774 on port 1883.
+1759792147: Client nodered6ef1fd2a172357ea disconnected, not authorised.
+1759792163: New connection from 172.18.0.6:50810 on port 1883.
+1759792163: Client noderedfaf4a5c4d33ed361 disconnected, not authorised.
+1759792176: New connection from 172.18.0.6:41078 on port 1883.
+1759792176: Client noderedbfbb1779eec5a525 disconnected, not authorised.
+1759792191: New connection from 172.18.0.6:48944 on port 1883.
+1759792191: Client noderedbfbb1779eec5a525 disconnected, not authorised.
+1759792206: New connection from 172.18.0.6:37908 on port 1883.
+1759792206: Client noderedbfbb1779eec5a525 disconnected, not authorised.
+1759792221: New connection from 172.18.0.6:55694 on port 1883.
+1759792221: Client noderedbfbb1779eec5a525 disconnected, not authorised.
+1759792236: New connection from 172.18.0.6:55180 on port 1883.
+1759792236: Client noderedbfbb1779eec5a525 disconnected, not authorised.
+1759792251: New connection from 172.18.0.6:51510 on port 1883.
+1759792251: Client noderedbfbb1779eec5a525 disconnected, not authorised.
+1759792258: New connection from 172.18.0.6:38572 on port 1883.
+1759792258: Client noderedda03d19449baab29 disconnected, not authorised.
+1759792273: New connection from 172.18.0.6:39870 on port 1883.
+1759792273: Client noderedda03d19449baab29 disconnected, not authorised.
+1759792288: New connection from 172.18.0.6:50604 on port 1883.
+1759792288: Client noderedda03d19449baab29 disconnected, not authorised.
+1759792303: New connection from 172.18.0.6:45812 on port 1883.
+1759792303: Client noderedda03d19449baab29 disconnected, not authorised.
+1759792318: New connection from 172.18.0.6:48088 on port 1883.
+1759792318: Client noderedda03d19449baab29 disconnected, not authorised.
+1759792333: New connection from 172.18.0.6:47266 on port 1883.
+1759792333: Client noderedda03d19449baab29 disconnected, not authorised.
+1759792348: New connection from 172.18.0.6:46564 on port 1883.
+1759792348: Client noderedda03d19449baab29 disconnected, not authorised.
+1759792363: New connection from 172.18.0.6:34286 on port 1883.
+1759792363: Client noderedda03d19449baab29 disconnected, not authorised.
+1759792378: New connection from 172.18.0.6:57998 on port 1883.
+1759792378: Client noderedda03d19449baab29 disconnected, not authorised.
+1759792393: New connection from 172.18.0.6:33812 on port 1883.
+1759792393: Client noderedda03d19449baab29 disconnected, not authorised.
+1759792397: New connection from 172.18.0.6:35362 on port 1883.
+1759792397: Client nodered543a8443200c9680 disconnected, not authorised.
+1759792412: New connection from 172.18.0.6:39786 on port 1883.
+1759792412: Client nodered543a8443200c9680 disconnected, not authorised.
+1759792427: New connection from 172.18.0.6:49320 on port 1883.
+1759792427: Client nodered543a8443200c9680 disconnected, not authorised.
+1759792444: New connection from 172.18.0.6:49494 on port 1883.
+1759792444: Client nodered47fbc8fde85396cc disconnected, not authorised.
+1759792459: New connection from 172.18.0.6:38644 on port 1883.
+1759792459: Client nodered47fbc8fde85396cc disconnected, not authorised.
+1759792472: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1759792474: New connection from 172.18.0.6:39602 on port 1883.
+1759792474: Client nodered47fbc8fde85396cc disconnected, not authorised.
+1759792489: New connection from 172.18.0.6:37974 on port 1883.
+1759792489: Client nodered47fbc8fde85396cc disconnected, not authorised.
+1759792504: New connection from 172.18.0.6:43864 on port 1883.
+1759792504: Client nodered47fbc8fde85396cc disconnected, not authorised.
+1759792519: New connection from 172.18.0.6:45482 on port 1883.
+1759792519: Client nodered47fbc8fde85396cc disconnected, not authorised.
+1759792534: New connection from 172.18.0.6:35100 on port 1883.
+1759792534: Client nodered47fbc8fde85396cc disconnected, not authorised.
+1759792548: New connection from 172.18.0.6:47650 on port 1883.
+1759792548: Client nodered69d043a57aeeb10c disconnected, not authorised.
+1759792563: New connection from 172.18.0.6:37866 on port 1883.
+1759792563: Client nodered69d043a57aeeb10c disconnected, not authorised.
+1759792578: New connection from 172.18.0.6:42542 on port 1883.
+1759792578: Client nodered69d043a57aeeb10c disconnected, not authorised.
+1759792593: New connection from 172.18.0.6:35306 on port 1883.
+1759792593: Client nodered69d043a57aeeb10c disconnected, not authorised.
+1759792608: New connection from 172.18.0.6:45134 on port 1883.
+1759792608: Client nodered69d043a57aeeb10c disconnected, not authorised.
+1759792623: New connection from 172.18.0.6:38162 on port 1883.
+1759792623: Client nodered69d043a57aeeb10c disconnected, not authorised.
+1759792638: New connection from 172.18.0.6:50592 on port 1883.
+1759792638: Client nodered69d043a57aeeb10c disconnected, not authorised.
+1759792653: New connection from 172.18.0.6:53278 on port 1883.
+1759792653: Client nodered69d043a57aeeb10c disconnected, not authorised.
+1759792668: New connection from 172.18.0.6:41848 on port 1883.
+1759792668: Client nodered69d043a57aeeb10c disconnected, not authorised.
+1759792676: New connection from 172.18.0.6:40428 on port 1883.
+1759792676: Client nodered62c987ca9ac8625c disconnected, not authorised.
+1759792684: New connection from 172.18.0.6:40432 on port 1883.
+1759792684: Client noderedde26f9c73c318ad6 disconnected, not authorised.
+1759792691: New connection from 172.18.0.6:55934 on port 1883.
+1759792691: Client nodered464b17a6add76db3 disconnected, not authorised.
+1759792704: New connection from 172.18.0.6:43476 on port 1883.
+1759792704: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792719: New connection from 172.18.0.6:49604 on port 1883.
+1759792719: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792734: New connection from 172.18.0.6:35792 on port 1883.
+1759792734: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792749: New connection from 172.18.0.6:53496 on port 1883.
+1759792749: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792764: New connection from 172.18.0.6:51278 on port 1883.
+1759792764: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792779: New connection from 172.18.0.6:48256 on port 1883.
+1759792779: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792794: New connection from 172.18.0.6:36972 on port 1883.
+1759792794: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792809: New connection from 172.18.0.6:33126 on port 1883.
+1759792809: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792824: New connection from 172.18.0.6:56654 on port 1883.
+1759792824: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792839: New connection from 172.18.0.6:51568 on port 1883.
+1759792839: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792854: New connection from 172.18.0.6:60348 on port 1883.
+1759792854: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792869: New connection from 172.18.0.6:43426 on port 1883.
+1759792869: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792884: New connection from 172.18.0.6:60016 on port 1883.
+1759792884: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792899: New connection from 172.18.0.6:52836 on port 1883.
+1759792899: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792914: New connection from 172.18.0.6:54006 on port 1883.
+1759792914: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792929: New connection from 172.18.0.6:59478 on port 1883.
+1759792929: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792944: New connection from 172.18.0.6:42636 on port 1883.
+1759792944: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792959: New connection from 172.18.0.6:44104 on port 1883.
+1759792959: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792974: New connection from 172.18.0.6:50680 on port 1883.
+1759792974: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792989: New connection from 172.18.0.6:46800 on port 1883.
+1759792989: Client noderedb28202113ebc163e disconnected, not authorised.
+1759792996: New connection from 172.18.0.6:53858 on port 1883.
+1759792996: Client nodered5914b7a574a0fa31 disconnected, not authorised.
+1759793011: New connection from 172.18.0.6:34382 on port 1883.
+1759793011: Client nodered5914b7a574a0fa31 disconnected, not authorised.
+1759793026: New connection from 172.18.0.6:33788 on port 1883.
+1759793026: Client nodered5914b7a574a0fa31 disconnected, not authorised.
+1759793041: New connection from 172.18.0.6:33190 on port 1883.
+1759793041: Client nodered5914b7a574a0fa31 disconnected, not authorised.
+1759793043: New connection from 172.18.0.6:33200 on port 1883.
+1759793043: Client noderedfc1a16e3029b1392 disconnected, not authorised.
+1759793058: New connection from 172.18.0.6:49632 on port 1883.
+1759793058: Client noderedfc1a16e3029b1392 disconnected, not authorised.
+1759793068: New connection from 172.18.0.6:53984 on port 1883.
+1759793068: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793083: New connection from 172.18.0.6:33792 on port 1883.
+1759793083: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793099: New connection from 172.18.0.6:47752 on port 1883.
+1759793099: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793114: New connection from 172.18.0.6:56884 on port 1883.
+1759793114: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793129: New connection from 172.18.0.6:41464 on port 1883.
+1759793129: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793144: New connection from 172.18.0.6:46552 on port 1883.
+1759793144: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793159: New connection from 172.18.0.6:39974 on port 1883.
+1759793159: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793174: New connection from 172.18.0.6:35432 on port 1883.
+1759793174: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793189: New connection from 172.18.0.6:41770 on port 1883.
+1759793189: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793204: New connection from 172.18.0.6:38352 on port 1883.
+1759793204: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793219: New connection from 172.18.0.6:39940 on port 1883.
+1759793219: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793234: New connection from 172.18.0.6:60040 on port 1883.
+1759793234: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793249: New connection from 172.18.0.6:39830 on port 1883.
+1759793249: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793264: New connection from 172.18.0.6:42658 on port 1883.
+1759793264: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793279: New connection from 172.18.0.6:51272 on port 1883.
+1759793279: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793294: New connection from 172.18.0.6:35526 on port 1883.
+1759793294: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793309: New connection from 172.18.0.6:43050 on port 1883.
+1759793309: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793324: New connection from 172.18.0.6:37020 on port 1883.
+1759793324: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793339: New connection from 172.18.0.6:50056 on port 1883.
+1759793339: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793354: New connection from 172.18.0.6:39130 on port 1883.
+1759793354: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793369: New connection from 172.18.0.6:35722 on port 1883.
+1759793369: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793384: New connection from 172.18.0.6:57888 on port 1883.
+1759793384: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793399: New connection from 172.18.0.6:45950 on port 1883.
+1759793399: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793414: New connection from 172.18.0.6:40640 on port 1883.
+1759793414: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793429: New connection from 172.18.0.6:33634 on port 1883.
+1759793429: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793444: New connection from 172.18.0.6:43590 on port 1883.
+1759793444: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793459: New connection from 172.18.0.6:42338 on port 1883.
+1759793459: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793474: New connection from 172.18.0.6:39746 on port 1883.
+1759793474: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793489: New connection from 172.18.0.6:36522 on port 1883.
+1759793489: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793504: New connection from 172.18.0.6:42002 on port 1883.
+1759793504: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793519: New connection from 172.18.0.6:34170 on port 1883.
+1759793519: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793534: New connection from 172.18.0.6:49706 on port 1883.
+1759793534: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793549: New connection from 172.18.0.6:57736 on port 1883.
+1759793549: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793564: New connection from 172.18.0.6:42488 on port 1883.
+1759793564: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793579: New connection from 172.18.0.6:33556 on port 1883.
+1759793579: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793594: New connection from 172.18.0.6:37206 on port 1883.
+1759793594: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793609: New connection from 172.18.0.6:51970 on port 1883.
+1759793609: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793624: New connection from 172.18.0.6:37438 on port 1883.
+1759793624: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793639: New connection from 172.18.0.6:38696 on port 1883.
+1759793639: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793654: New connection from 172.18.0.6:49094 on port 1883.
+1759793654: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793669: New connection from 172.18.0.6:50464 on port 1883.
+1759793669: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793684: New connection from 172.18.0.6:38074 on port 1883.
+1759793684: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793699: New connection from 172.18.0.6:54326 on port 1883.
+1759793699: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793714: New connection from 172.18.0.6:54696 on port 1883.
+1759793714: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793729: New connection from 172.18.0.6:40952 on port 1883.
+1759793729: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793744: New connection from 172.18.0.6:59854 on port 1883.
+1759793744: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793759: New connection from 172.18.0.6:45880 on port 1883.
+1759793759: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793774: New connection from 172.18.0.6:37064 on port 1883.
+1759793774: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793789: New connection from 172.18.0.6:52558 on port 1883.
+1759793789: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793804: New connection from 172.18.0.6:39094 on port 1883.
+1759793804: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793819: New connection from 172.18.0.6:49014 on port 1883.
+1759793819: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793834: New connection from 172.18.0.6:60464 on port 1883.
+1759793834: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793849: New connection from 172.18.0.6:43108 on port 1883.
+1759793849: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793864: New connection from 172.18.0.6:57050 on port 1883.
+1759793864: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793879: New connection from 172.18.0.6:46852 on port 1883.
+1759793879: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793894: New connection from 172.18.0.6:42274 on port 1883.
+1759793894: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793909: New connection from 172.18.0.6:53308 on port 1883.
+1759793909: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793924: New connection from 172.18.0.6:39502 on port 1883.
+1759793924: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793939: New connection from 172.18.0.6:45132 on port 1883.
+1759793939: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793954: New connection from 172.18.0.6:57788 on port 1883.
+1759793954: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793969: New connection from 172.18.0.6:37026 on port 1883.
+1759793969: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793984: New connection from 172.18.0.6:55220 on port 1883.
+1759793984: Client nodered3fdb9dbe021e401f disconnected, not authorised.
+1759793995: New connection from 172.18.0.6:59998 on port 1883.
+1759793995: Client nodered375159688b790a8d disconnected, not authorised.
+1759794010: New connection from 172.18.0.6:42302 on port 1883.
+1759794010: Client nodered375159688b790a8d disconnected, not authorised.
+1759794025: New connection from 172.18.0.6:47848 on port 1883.
+1759794025: Client nodered375159688b790a8d disconnected, not authorised.
+1759794040: New connection from 172.18.0.6:40968 on port 1883.
+1759794040: Client nodered375159688b790a8d disconnected, not authorised.
+1759794055: New connection from 172.18.0.6:57082 on port 1883.
+1759794055: Client nodered375159688b790a8d disconnected, not authorised.
+1759794070: New connection from 172.18.0.6:53172 on port 1883.
+1759794070: Client nodered375159688b790a8d disconnected, not authorised.
+1759794085: New connection from 172.18.0.6:45994 on port 1883.
+1759794085: Client nodered375159688b790a8d disconnected, not authorised.
+1759794100: New connection from 172.18.0.6:53490 on port 1883.
+1759794100: Client nodered375159688b790a8d disconnected, not authorised.
+1759794115: New connection from 172.18.0.6:53212 on port 1883.
+1759794115: Client nodered375159688b790a8d disconnected, not authorised.
+1759794130: New connection from 172.18.0.6:35550 on port 1883.
+1759794130: Client nodered375159688b790a8d disconnected, not authorised.
+1759794142: Client nodered6e89bb98bb4bcf19 disconnected.
+1759794144: mosquitto version 2.0.22 terminating
+1759794144: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1759794144: Client pub-a09f662990dc58 closed its connection.
+1759794144: Client sub-0187c2d5b41b7 closed its connection.
+1759794281: mosquitto version 2.0.22 starting
+1759794281: Config loaded from /mosquitto/config/mosquitto.conf.
+1759794281: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1759794281: Opening ipv4 listen socket on port 1883.
+1759794281: Opening websockets listen socket on port 9001.
+1759794281: mosquitto version 2.0.22 running
+1759794281: New client connected from 172.18.0.1:33374 as pub-a09f662990dc58 (p2, c1, k60, u'aluno').
+1759794282: New client connected from 172.18.0.1:33388 as sub-0187c2d5b41b7 (p2, c1, k60, u'aluno').
+1759794286: New connection from 172.18.0.5:51956 on port 1883.
+1759794286: Client nodered308e138999c2eba8 disconnected, not authorised.
+1759794286: New connection from 172.18.0.6:49482 on port 1883.
+1759794286: New client connected from 172.18.0.6:49482 as nodered35d05f09d6bebb07 (p2, c1, k60, u'aluno').
+1759794301: New connection from 172.18.0.5:41220 on port 1883.
+1759794301: Client nodered308e138999c2eba8 disconnected, not authorised.
+1759794316: New connection from 172.18.0.5:53446 on port 1883.
+1759794316: Client nodered308e138999c2eba8 disconnected, not authorised.
+1759794331: New connection from 172.18.0.5:56152 on port 1883.
+1759794331: Client nodered308e138999c2eba8 disconnected, not authorised.
+1759794345: Client nodered35d05f09d6bebb07 disconnected.
+1759794347: mosquitto version 2.0.22 terminating
+1759794347: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1759794347: Client sub-0187c2d5b41b7 closed its connection.
+1759794347: Client pub-a09f662990dc58 closed its connection.
+1759794480: mosquitto version 2.0.22 starting
+1759794480: Config loaded from /mosquitto/config/mosquitto.conf.
+1759794480: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1759794480: Opening ipv4 listen socket on port 1883.
+1759794480: Opening websockets listen socket on port 9001.
+1759794480: mosquitto version 2.0.22 running
+1759794480: New client connected from 172.18.0.1:47922 as pub-a09f662990dc58 (p2, c1, k60, u'aluno').
+1759794482: New client connected from 172.18.0.1:47924 as sub-0187c2d5b41b7 (p2, c1, k60, u'aluno').
+1759794484: New connection from 172.18.0.5:48842 on port 1883.
+1759794484: New client connected from 172.18.0.5:48842 as nodered6a6a81478b6d59ea (p2, c1, k60, u'aluno').
+1759794484: New connection from 172.18.0.6:57218 on port 1883.
+1759794484: Client nodered54b0d0248b2aee36 disconnected, not authorised.
+1759794499: New connection from 172.18.0.6:35638 on port 1883.
+1759794499: Client nodered54b0d0248b2aee36 disconnected, not authorised.
+1759794514: New connection from 172.18.0.6:54276 on port 1883.
+1759794514: Client nodered54b0d0248b2aee36 disconnected, not authorised.
+1759794529: New connection from 172.18.0.6:41494 on port 1883.
+1759794529: Client nodered54b0d0248b2aee36 disconnected, not authorised.
+1759794544: New connection from 172.18.0.6:35018 on port 1883.
+1759794544: Client nodered54b0d0248b2aee36 disconnected, not authorised.
+1759794559: New connection from 172.18.0.6:42082 on port 1883.
+1759794559: Client nodered54b0d0248b2aee36 disconnected, not authorised.
+1759794574: New connection from 172.18.0.6:55862 on port 1883.
+1759794574: Client nodered54b0d0248b2aee36 disconnected, not authorised.
+1759794589: New connection from 172.18.0.6:53694 on port 1883.
+1759794589: Client nodered54b0d0248b2aee36 disconnected, not authorised.
+1759794604: New connection from 172.18.0.6:47658 on port 1883.
+1759794604: Client nodered54b0d0248b2aee36 disconnected, not authorised.
+1759794619: New connection from 172.18.0.6:44044 on port 1883.
+1759794619: Client nodered54b0d0248b2aee36 disconnected, not authorised.
+1759794634: New connection from 172.18.0.6:58412 on port 1883.
+1759794634: Client nodered54b0d0248b2aee36 disconnected, not authorised.
+1759794649: New connection from 172.18.0.6:34882 on port 1883.
+1759794649: Client nodered54b0d0248b2aee36 disconnected, not authorised.
+1759794655: Client nodered6a6a81478b6d59ea disconnected.
+1759794657: mosquitto version 2.0.22 terminating
+1759794657: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1759794657: Client sub-0187c2d5b41b7 closed its connection.
+1759794657: Client pub-a09f662990dc58 closed its connection.
+1759794699: mosquitto version 2.0.22 starting
+1759794699: Config loaded from /mosquitto/config/mosquitto.conf.
+1759794699: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1759794699: Opening ipv4 listen socket on port 1883.
+1759794699: Opening websockets listen socket on port 9001.
+1759794699: mosquitto version 2.0.22 running
+1759794700: New client connected from 172.18.0.1:51228 as sub-0187c2d5b41b7 (p2, c1, k60, u'aluno').
+1759794700: New client connected from 172.18.0.1:51234 as pub-a09f662990dc58 (p2, c1, k60, u'aluno').
+1759794703: New connection from 172.18.0.6:42324 on port 1883.
+1759794703: Client nodered47a6c1680c769438 disconnected, not authorised.
+1759794703: New connection from 172.18.0.5:56444 on port 1883.
+1759794703: New client connected from 172.18.0.5:56444 as nodered61709be249e4ff62 (p2, c1, k60, u'aluno').
+1759794718: New connection from 172.18.0.6:41750 on port 1883.
+1759794718: Client nodered47a6c1680c769438 disconnected, not authorised.
+1759794733: New connection from 172.18.0.6:52658 on port 1883.
+1759794733: Client nodered47a6c1680c769438 disconnected, not authorised.
+1759794746: Client nodered61709be249e4ff62 disconnected.
+1759794749: mosquitto version 2.0.22 terminating
+1759794749: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1759794749: Client pub-a09f662990dc58 closed its connection.
+1759794749: Client sub-0187c2d5b41b7 closed its connection.
+1759794812: mosquitto version 2.0.22 starting
+1759794812: Config loaded from /mosquitto/config/mosquitto.conf.
+1759794812: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1759794812: Opening ipv4 listen socket on port 1883.
+1759794812: Opening websockets listen socket on port 9001.
+1759794812: mosquitto version 2.0.22 running
+1759794812: New client connected from 172.18.0.1:48488 as pub-a09f662990dc58 (p2, c1, k60, u'aluno').
+1759794812: New client connected from 172.18.0.1:48498 as sub-0187c2d5b41b7 (p2, c1, k60, u'aluno').
+1759794816: New connection from 172.18.0.5:34432 on port 1883.
+1759794816: New client connected from 172.18.0.5:34432 as nodered40b856c09c60aaf1 (p2, c1, k60, u'aluno').
+1759794816: New connection from 172.18.0.6:38924 on port 1883.
+1759794816: Client noderedef8a883f251438e9 disconnected, not authorised.
+1759794831: New connection from 172.18.0.6:57466 on port 1883.
+1759794831: Client noderedef8a883f251438e9 disconnected, not authorised.
+1759794846: New connection from 172.18.0.6:40236 on port 1883.
+1759794846: Client noderedef8a883f251438e9 disconnected, not authorised.
+1759794861: New connection from 172.18.0.6:56472 on port 1883.
+1759794861: Client noderedef8a883f251438e9 disconnected, not authorised.
+1759794876: New connection from 172.18.0.6:34568 on port 1883.
+1759794876: Client noderedef8a883f251438e9 disconnected, not authorised.
+1759794891: New connection from 172.18.0.6:53978 on port 1883.
+1759794891: Client noderedef8a883f251438e9 disconnected, not authorised.
+1759794906: New connection from 172.18.0.6:41560 on port 1883.
+1759794906: Client noderedef8a883f251438e9 disconnected, not authorised.
+1759794921: New connection from 172.18.0.6:53968 on port 1883.
+1759794921: Client noderedef8a883f251438e9 disconnected, not authorised.
+1759794936: New connection from 172.18.0.6:40930 on port 1883.
+1759794936: Client noderedef8a883f251438e9 disconnected, not authorised.
+1759794943: New connection from 172.18.0.6:40940 on port 1883.
+1759794943: Client noderedadef7e7a089fc56e disconnected, not authorised.
+1759794958: New connection from 172.18.0.6:35354 on port 1883.
+1759794958: Client noderedadef7e7a089fc56e disconnected, not authorised.
+1759794973: New connection from 172.18.0.6:49918 on port 1883.
+1759794973: Client noderedadef7e7a089fc56e disconnected, not authorised.
+1759794988: New connection from 172.18.0.6:49860 on port 1883.
+1759794988: Client noderedadef7e7a089fc56e disconnected, not authorised.
+1759795003: New connection from 172.18.0.6:49562 on port 1883.
+1759795003: Client noderedadef7e7a089fc56e disconnected, not authorised.
+1759795018: New connection from 172.18.0.6:44298 on port 1883.
+1759795018: Client noderedadef7e7a089fc56e disconnected, not authorised.
+1759795033: New connection from 172.18.0.6:37750 on port 1883.
+1759795033: Client noderedadef7e7a089fc56e disconnected, not authorised.
+1759795048: New connection from 172.18.0.6:41602 on port 1883.
+1759795048: Client noderedadef7e7a089fc56e disconnected, not authorised.
+1759795057: New connection from 172.18.0.6:37062 on port 1883.
+1759795057: Client noderede35849a2467ce73d disconnected, not authorised.
+1759795072: New connection from 172.18.0.6:41094 on port 1883.
+1759795072: Client noderede35849a2467ce73d disconnected, not authorised.
+1759795077: Client nodered40b856c09c60aaf1 disconnected.
+1759795080: mosquitto version 2.0.22 terminating
+1759795080: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1759795080: Client sub-0187c2d5b41b7 closed its connection.
+1759795080: Client pub-a09f662990dc58 closed its connection.

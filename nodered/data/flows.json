@@ -1,0 +1,268 @@
+[
+    {
+        "id": "f7e3781c68842f86",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "45023cad65189f43",
+        "type": "postgreSQLConfig",
+        "name": "",
+        "host": "postgres",
+        "hostFieldType": "str",
+        "port": 5432,
+        "portFieldType": "num",
+        "database": "iot",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": 10,
+        "maxFieldType": "num",
+        "idle": 1000,
+        "idleFieldType": "num",
+        "connectionTimeout": 10000,
+        "connectionTimeoutFieldType": "num",
+        "user": "admin",
+        "userFieldType": "str",
+        "password": "admin",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "9e3bcd1ba5e16855",
+        "type": "mqtt-broker",
+        "name": "Broken",
+        "broker": "mosquitto",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "b905da9cd8090e46",
+        "type": "mongodb4-client",
+        "name": "ConectionMongoDB",
+        "protocol": "mongodb",
+        "hostname": "mongo",
+        "port": "27017",
+        "dbName": "Alerta",
+        "appName": "",
+        "authSource": "",
+        "authMechanism": "DEFAULT",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "30000",
+        "socketTimeoutMS": "0",
+        "minPoolSize": "0",
+        "maxPoolSize": "100",
+        "maxIdleTimeMS": "0",
+        "uri": "",
+        "advanced": "{}",
+        "uriTabActive": "tab-uri-simple"
+    },
+    {
+        "id": "ec686c30475d88b4",
+        "type": "mqtt in",
+        "z": "f7e3781c68842f86",
+        "name": "",
+        "topic": "device/+/informacao",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "9e3bcd1ba5e16855",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 160,
+        "wires": [
+            [
+                "255c39fe0e1dd08e"
+            ]
+        ]
+    },
+    {
+        "id": "e75dfc25cc2c66dc",
+        "type": "function",
+        "z": "f7e3781c68842f86",
+        "name": "function 1",
+        "func": "const temperatura = msg.temperatura;\nconst deviceId = msg.deviceId;\n\nconst device_Id = msg.payload.id_dispositivo;\nconst temperature = msg.payload.temperatura;\n\n\nmsg.device_Id = deviceId;\nmsg.temperatura = temperatura;\n\nif (temperatura < 5) {\n    msg.payload = {\n        id_dispositivo: deviceId,\n        temperature: temperatura,\n        timestamp: new Date().toISOString()\n    };\n    msg.topic = \"ok\";  \n    return [msg, null];  \n} else {\n    msg.payload = {\n        id_dispositivo: deviceId,\n        temperatura: temperatura,\n        timestamp: new Date().toISOString()\n    };\n    msg.topic = \"alerta\";\n    return [null, msg];  \n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 200,
+        "wires": [
+            [
+                "057d5a5b9f0a3025"
+            ]
+        ]
+    },
+    {
+        "id": "255c39fe0e1dd08e",
+        "type": "uuid",
+        "z": "f7e3781c68842f86",
+        "uuidVersion": "v4",
+        "namespaceType": "",
+        "namespace": "",
+        "namespaceCustom": "",
+        "name": "",
+        "field": "payload._id",
+        "fieldType": "msg",
+        "x": 430,
+        "y": 160,
+        "wires": [
+            [
+                "e75dfc25cc2c66dc"
+            ]
+        ]
+    },
+    {
+        "id": "0e853c831645e29d",
+        "type": "postgresql",
+        "z": "f7e3781c68842f86",
+        "name": "",
+        "query": "SELECT * FROM ;",
+        "postgreSQLConfig": "45023cad65189f43",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 870,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "057d5a5b9f0a3025",
+        "type": "mongodb4",
+        "z": "f7e3781c68842f86",
+        "clientNode": "b905da9cd8090e46",
+        "mode": "collection",
+        "collection": "",
+        "operation": "",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 890,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cb22b035e5fc5195",
+        "type": "function",
+        "z": "f7e3781c68842f86",
+        "name": "function 2",
+        "func": "const device_id = (msg.topic || '').split(\"/\")[1];\nif(!device_id) return null;\n\nmsg.collection = \"alert\";\nmsg.operation = \"insertOne\";\n\nconst objeto = {\n    _id: msg.payload._id,  \n    device_id: device_id,\n    data: {\n        temperature: msg.payload.data.temperature,\n        unit: msg.payload.data.unit\n    },        \n    created_at: new Date(),\n    update_at: new Date(),\n    raw: JSON.stringify(msg.payload)\n}\nconst status = msg.payload.data.temperature < 5 ? \"off\" : \"on\"\nconst obj = {\n    topic: `device/${device_id}/cmd/light`,\n    payload: {\n        device_id: device_id,\n        led: status\n    }\n}\nvar postgres = {};\nif (status == \"on\"){\n    postgres.query = `INSERT INTO alert (id, created_at, temperature,topic, unit, raw) VALUES ($1, $2, $3, $4, $5, $6)`;\n    postgres.params = [\n        msg.payload._id,  \n        new Date(),\n        msg.payload.data.temperature,\n        msg.payload.data.unit,\n        msg.topic,\n        JSON.stringify(msg.payload)\n    ]\n} else {\n    postgres = null\n}\n\nmsg.payload = objeto\nreturn [msg, obj, postgres || null];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 380,
+        "wires": [
+            [
+                "057d5a5b9f0a3025"
+            ],
+            [
+                "5e73bb992a250f24"
+            ],
+            [
+                "0e853c831645e29d"
+            ]
+        ]
+    },
+    {
+        "id": "5e73bb992a250f24",
+        "type": "mqtt out",
+        "z": "f7e3781c68842f86",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9e3bcd1ba5e16855",
+        "x": 910,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "a3748638c24d48a6",
+        "type": "mqtt in",
+        "z": "f7e3781c68842f86",
+        "name": "",
+        "topic": "device/+/status/temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "9e3bcd1ba5e16855",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 380,
+        "wires": [
+            [
+                "b07ad6a1eb4377e3"
+            ]
+        ]
+    },
+    {
+        "id": "b07ad6a1eb4377e3",
+        "type": "uuid",
+        "z": "f7e3781c68842f86",
+        "uuidVersion": "v4",
+        "namespaceType": "",
+        "namespace": "",
+        "namespaceCustom": "",
+        "name": "",
+        "field": "payload._id",
+        "fieldType": "msg",
+        "x": 430,
+        "y": 400,
+        "wires": [
+            [
+                "cb22b035e5fc5195"
+            ]
+        ]
+    }
+]
